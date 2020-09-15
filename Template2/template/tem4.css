@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/* body{
+    width: 1500px; 
+} */
+nav{
+    height: 80px;
+    width: 1200px;
+    margin: 15px auto;
+}  
+nav .nav1 ul{
+    text-align: center;
+}  
+nav .nav1 ul li{  
+    list-style: none;
+    line-height: 80px;
+    display: inline-block;
+    padding: 0px 27px;
+    text-transform: uppercase;
+}
+nav .nav1 ul li a{
+    text-decoration: none;
+    color: #696969;
+    font-weight: bold;
+}
+nav .nav1 ul li h2{
+    line-height: 80px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 50px;
+}
+nav .nav1 ul li a:hover{
+    color: #0404B4;
+}
+nav .nav1 ul li h2:hover{
+    opacity: 0;
+}
+.slide{
+    position: relative;
+}
+.slide .center{
+    text-align: center; 
+} 
+.slide .left{
+    /* clear: both; */
+    position: absolute;
+    right: 385px;
+    top: 96px;
+    width: 245px;
+}
+.slide .left h2{
+    font-size: 50px;
+    color: #151515;
+    margin-bottom: 15px;
+}
+.slide .left p{
+    color: #1C1C1C;
+    margin-top: 15px;
+    font-family:'Courgette', cursive;
+}
+.slide .left .nut{
+    margin: 40px 30px;
+    border-radius: 40px ;
+    background: #58ACFA;
+    color: #FFF;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+}
+.slide .right {
+    position: absolute;
+    top: 30px;
+    right: 602px;
+}    
+.slide .right .hidden{
+    background-color: rgba(0, 0, 0, 0);
+    width: 40px;
+    font-size: 26px;
+    color: #FBEFEF;
+}
+.slide .left .nut:hover{
+    background-color: rosybrown;
+}
+header{
+    text-align: center;
+    height: 450px;
+    margin-top: 10px;
+}
+header .bn1,.bn2,.bn3{
+    /* float: left; */
+    display: inline-block;
+}  
+header .bn1 img,.bn2 img,.bn3 img{
+    border-radius: 30px;
+}
+header .bn1 img{
+    width: 310px;
+    height: 240px;
+    margin-bottom: 92px;
+}
+header .bn2 img{
+    width: 390px;
+    height: 420px;
+}
+header .bn3 img{
+    width: 310px;
+    height: 230px;
+    margin-bottom: 95px;
+}
+article h1{
+    margin: 20px 0px 50px;
+    text-align: center;
+    color: #585858;
+    font-size: 30px;
+    animation: text 0.8s ease 1s infinite normal;
+}
+article .content {
+    text-align: center;
+}
+article .content .layer1 a{
+    margin: 15px 15px;
+}
+article .content .layer1 a img{
+    width:280px;
+    height: 350px;
+}
+article .content .layer2 {
+    margin: 30px 0px 30px;
+}
+article .content .layer2 h3{
+    margin-left: 125px;
+    display: inline;
+    font-size: 25px;
+    margin-right: 125px;
+}
+article .content .layer2 h3 small{
+    font-size: 18px;
+    color: #585858;
+}
+article .content .layer3 button{
+    margin-left: 95px;
+    margin-right: 100px;
+    font-size: 15px;
+    color:  #FFF;
+    background: #58ACFA;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+article .content .layer3 button:hover{
+    background: #0B2161;
+}
+@-webkit-keyframes text {
+    30% {
+    opacity:0;
+    text-shadow: 0px 0px 50px rgba(1, 58, 223, 0);
+    }
+} 
+article .content .layer1 a img{
+    -webkit-transform: scale(1.0) ;
+    -moz-transform: scale(1.0);
+    -ms-transform: scale(1.0);
+    -o-transform:scale(1.0) ;
+    transform: scale(1.0);
+}
+article .content .layer1 a img:hover{
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform:scale(1.2) ;
+    transform: scale(1.2);
+}
+footer{
+    margin-top: 100px;
+    height: 600px;
+    width: 100%;
+    background: #E4E4E4;
+    /* text-align: center; */
+}
+footer .f1,.f2{
+    margin-left: 150px;
+    /* display: inline-block; */
+    margin-top: 100px;
+    float: left;
+} 
+footer .f1 p,.f2 p{
+    font-size: 13px;
+    font-weight: bold;
+    color: #2E2E2E;
+}
+footer .f1 .foot1 ul li,.f2 .foot2 ul li{
+    list-style: none;
+    padding-bottom:10px ;
+}
+footer .f1 .foot1 ul,.f2 .foot2 ul{
+    margin-top: 30px;
+}
+footer .f1 .foot1 ul li a,.f2 .foot2 ul li a{
+    text-decoration: none;
+    color: #2E2E2E;
+    
+}
+footer .f1 .foot1 ul li a:hover,.f2 .foot2 ul li a:hover{
+    text-decoration: underline;
+}
+footer h5{
+    clear: both;
+    padding-top: 80px ;
+    text-align: center;
+    font-size: 18px;
+    color: #2E2E2E;
+}
+footer .vth{
+    margin: 15px 940px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 25px;
+}
+footer .f1 .foot1 ul li a .vth1{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+}
+footer .end a img{
+    width: 23px;
+    height: 23px;
+    padding-right: 30px;
+}
+footer .end {
+    margin: 30px 0px;
+    text-align: center;   
+}
+

@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.container{
+    width: 980px;
+    margin: 0px auto;
+}
+header{
+    background: orange;
+    height: 100px;
+}
+.container header a img{
+    width: 240px;
+    height: 80px;
+    padding: 10px 0px 0px 20px;
+}    
+nav{
+    background: #08298A;
+    height:35px ;
+    width: 980px;
+}
+nav .menu .them1{
+    float: left;
+}
+nav .menu .them1 li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+nav .menu .them1 li a{
+    line-height: 35px;
+    color: #FFF;
+    text-decoration: none;
+    padding: 0px 30px 0px 30px;
+    font-size: 18px ;
+}
+nav .menu .them1 li:hover{
+    cursor: pointer;
+    background: orange;
+}
+nav .menu .them1 li a:active{
+    color: orangered;
+}
+nav .search{
+    float: right;
+    line-height: 35px;
+    margin-right: 25px;
+}
+.logo img{
+    width: 980px;
+    height: 230px;
+} 
+main article .list{
+    margin-top: 20px;
+}
+main article h2{
+    padding-top: 20px;
+    text-align: center;
+}
+main article .new-list{
+    width: 280px;
+    padding: 20px 9px 20px 15px;
+    margin-right: 18px;
+    display: inline-block;
+    border: 1px solid #A4A4A4;
+}
+main article .new-list h4{
+    margin-bottom: 10px;
+}
+main article .new-list img{
+    width: 260px;
+    height:170px;
+    margin-bottom: 7px;
+}
+footer{
+    background:orangered;
+    font-size: 20px;
+    text-transform: uppercase;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    width: 980px;
+    margin: 50px 0px 20px ;
+    font-weight: bold;
+}
+.container nav div.menu ul.them1 li .them2 {
+    display: none;
+}
+.container nav div.menu ul.them1 li:hover .them2 {
+    display: block; 
+    position: absolute;
+    top: 35px;
+    left: 0px;
+    width: 162px;
+    height: 140px;
+    background: #A4A4A4;
+}
+.container nav div.menu ul.them1 li:hover .them2 li:hover{
+    background: #6E6E6E;
+}
